@@ -1,0 +1,161 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+.title_Time{
+    width: 60%;
+    height:100px;
+    box-shadow: 8px 8px 9px #196;
+    background-color:#196;
+    margin: 20px auto 0;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    border:#196  solid 3px;
+    border-color:   #196 #196 #867 #196 ;
+    
+}
+.title_Time .time_Clock{
+    width: 60%;
+    height:80%;
+    margin: 15px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.title_Time .time_Clock h3{
+    text-align: center;
+    font-size: 4em;
+    font-family:'Courier New', Courier, monospace
+}
+.time{
+    width: 60%;
+    height:400px;
+    background-color:#196;
+    margin: 6px auto;
+    position: relative;
+    box-shadow: 8px 8px 9px #196;
+    border:  solid 3px;
+    border-color:  #867 #196 #196 #196 ;
+
+}
+.time .history{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background:#fff;
+    width: 300px;
+    height:50px;
+    border: solid 3px;
+    border-radius: 0 10px ;
+    border-color:  #867 #196 #196 #196 ;
+
+}
+.time .history h2{
+    text-align: center;
+    padding-top: 5px;
+    font-family: cursive;
+    font-size:2em;
+}
+.time .border_clock{
+    width: 60%;
+    height:35%;
+    margin: 100px auto;
+    border:#196 solid 3px;
+    background-color: #fff;
+    border-radius: 10px 10px  0px 0;
+}
+.time .border_clock h1{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 4.4em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.time .Alarm_Clock{
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    background:#fff;
+    width: 300px;
+    height:50px;
+    border:#196 solid 3px;
+    border-radius: 0 10px ;
+    
+}
+.time .Alarm_Clock h2{
+    text-align: center;
+    padding-top: 5px;
+    font-size:2em;
+    font-family: cursive;
+}
+.time .botTime{
+    width:60%;
+    height:15%;
+    margin: -100px auto;
+    background-color: #fff;
+    border-radius:0 0 10px 10px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.time .botTime button ,.time .botTime input ,.time .botTime select{
+    width: 80px;
+    height: 30px;
+    border:none;
+    box-shadow: 5px 5px 7px #196;
+    text-align:center;
+}
+.time .PmOrAm{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background:#fff;
+    width: 200px;
+    height:50px;
+    border: solid 3px;
+    border-color:  #867 #196 #196 #196 ;
+    border-radius:  10px 0 ;
+}
+.time .PmOrAm button{
+    width:60%;
+    height:60%;
+    box-shadow: 5px 5px 7px #196;
+    border:none;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.Arry_ALerm{
+      width: 60%;
+    /* height:100px; */
+    box-shadow: 8px 8px 9px #196;
+    background-color:#196;
+    margin: 0px auto 0;
+    padding: 20px 0 40px;
+    border-radius: 0 0 10px 10px;
+
+    position: relative;
+    border:#196  solid 3px;
+    border-color:   #196 #196 #867 #196 ;
+}
+.Arry_ALerm h1{
+       text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+    color:#fff;
+    font-family:'Courier New', Courier, monospace;
+}
+.Arry_ALerm ul{
+    list-style: none;
+    text-align: left;
+    width:50%;
+    /* background-color: #fff; */
+    margin: -10px auto;
+    padding:10px 20px;
+}
+.Arry_ALerm ul button{
+    float: right;
+}
+.Arry_ALerm ul li{
+    padding: 10px 0;
+    background-color: #fff;
+}
